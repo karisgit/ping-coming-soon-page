@@ -50,11 +50,11 @@ if (form) {
 
 
     if (isEmpty) {
-      setError("This field is required  🙄 😏");
+      setError("This field is required  ❗");
     } else if (!isValueValid) {
-      setError("Please provide a valid email address 😉");
+      setError("Please provide a valid email address ❌");
     } else {
-      setSuccess("Looks good 👍");
+      setSuccess("Looks good ✅");
     }
   });
 
